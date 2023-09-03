@@ -1,0 +1,19 @@
+###
+
+GET http://localhost:3011/
+
+
+###
+
+POST http://localhost:3011/users
+Content-Type: application/json
+
+
+{
+    "name":"Anki Reddy",
+    "username":"Ankimart@123",
+    "password":"Ankireddy@123",
+    "gender":"M",
+    "phoneno":9392304863
+
+}
