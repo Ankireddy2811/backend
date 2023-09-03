@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 app.use(express.json());
-const bcrypt = require("bcrypt")
+const bcrypt = require("bcrypt");
 
 
 const path = require("path");
