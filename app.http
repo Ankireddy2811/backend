@@ -10,10 +10,27 @@ Content-Type: application/json
 
 
 {
-    "name":"Anki Reddy",
-    "username":"Ankimart@123",
-    "password":"Ankireddy@123",
-    "gender":"M",
-    "phoneno":9392304863
-
+    "name":"deva",
+    "email":"deva@gmail.com",
+    "imageurl":"http://image1.png"
 }
+
+
+
+###
+
+PUT http://localhost:3011/users/2
+Content-Type: application/json
+
+
+{
+    "name":"deva",
+    "email":"deva1@gmail.com",
+    "imageurl":"http://image1.png"
+}
+
+
+
+###
+
+DELETE http://localhost:3011/users/2
